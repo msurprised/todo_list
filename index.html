@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo list</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=1170">
+        <link rel="stylesheet" href="./style.css">
+        <script async src="./script.js"></script>
+    </head>
+    <body>
+        <main class="main_container">
+            <header>
+                <h1>to-do list</h1>
+                <div class="counter"><span>done</span><div class="counter_value">0</div></div>
+            </header>
+            <main>
+                <div class="input_field">
+                    <input class='input_task' type="text" autofocus placeholder="write to not forget..."><input class="button_add" type="button" value="submit">
+                </div>
+                <div class="set_date">
+                    <input class='input_time' type="time"><input class='input_date' type="date">
+                </div>
+                <div class="slider_container">
+                    <div class="list_container">
+                        <div class="not_done"></div>
+                        <div class="list_done">
+                            <ul class="ul_done"></ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </main>
+        <div class="helper_show_done helper_field"><div class="helper_show_done_text helper_text">show completed ⟶</div></div>
+        <div class="helper_back_to_list helper_field"><div class="helper_back_to_list_text helper_text">⟵ back to list</div></div>
+    </body>
+</html>
